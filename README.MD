@@ -2,6 +2,13 @@
 
 ## Resources
 
+- [Golang Benchmarking](https://blog.logrocket.com/benchmarking-golang-improve-function-performance/)
+- [Comparable in Golang](https://levelup.gitconnected.com/comparable-in-golang-d7b080e49443)
+
+---
+
+- [Official docs about sync.Map](https://pkg.go.dev/sync#Map)
+- [How does sync.Map work internally](https://sreramk.medium.com/go-inside-sync-map-how-does-sync-map-work-internally-97e87b8e6bf)
 - [An In-Depth Guide for Using Go sync.Map with Code Sample](https://reliasoftware.com/blog/go-sync-map)
 
 ---
