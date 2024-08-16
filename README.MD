@@ -2,6 +2,10 @@
 
 ## Resources
 
+- [An In-Depth Guide for Using Go sync.Map with Code Sample](https://reliasoftware.com/blog/go-sync-map)
+
+---
+
 - [ElasticSearch docker compose + curl requests examples](https://geshan.com.np/blog/2023/06/elasticsearch-docker/)
 - [Elastic Stack -primeros pasos-](https://www.elastic.co/es/blog/getting-started-with-the-elastic-stack-and-docker-compose)
 - [Full-text Search with ElasticSearch with Golang (EXAMPLE PROJECT)](https://github.com/code-heim/go_46_elasticsearch)
