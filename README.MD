@@ -10,6 +10,7 @@
 - [Official docs about sync.Map](https://pkg.go.dev/sync#Map)
 - [How does sync.Map work internally](https://sreramk.medium.com/go-inside-sync-map-how-does-sync-map-work-internally-97e87b8e6bf)
 - [An In-Depth Guide for Using Go sync.Map with Code Sample](https://reliasoftware.com/blog/go-sync-map)
+- [Comparing Go performance of Mutex, sync.Map and Channels for concurrent map access for increments](https://medium.com/@nikolay.dimitrov/comparing-go-performance-of-mutex-sync-map-and-channels-for-syncing-a-map-of-counters-61810c201e17)
 
 ---
 
