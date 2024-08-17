@@ -18,13 +18,32 @@
 - [Elastic Stack -primeros pasos-](https://www.elastic.co/es/blog/getting-started-with-the-elastic-stack-and-docker-compose)
 - [Full-text Search with ElasticSearch with Golang (EXAMPLE PROJECT)](https://github.com/code-heim/go_46_elasticsearch)
 
+---
+
+- [Kafka Producers and Consumers With Golang](https://medium.com/@wahyubagus1910/kafka-producers-and-consumers-with-golang-863d920c723c)
+- [Go Kafka example](https://github.com/EstebanDem/go-kafka-example/tree/master)
+
 ## PoC's
 
 ### Worker Pool
 
 ### SyncMap
 
+Comparison between `sync map` and custom safe map implementation (`pkg/safemap`)
+
 ### ElasticSearch
+
+Start elasticsearch server:
+
+```bash
+just start-es
+```
+
+Stop elasticsearch server:
+
+```bash
+just stop-es
+```
 
 Create index example:
 
@@ -43,3 +62,19 @@ Search example:
 ```bash
 curl -X GET "localhost:9200/test/_search?pretty" -H 'Content-Type: application/json' -d' { "query": { "match": { "title": "test" } } }'
 ```
+
+### Kafka
+
+Start kafka server:
+
+```bash
+just start-kafka
+```
+
+Stop kafka server:
+
+```bash
+just stop-kafka
+```
+
+- [Kafka Dashboard UI](http://localhost:8080)

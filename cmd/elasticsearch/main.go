@@ -31,7 +31,7 @@ func main() {
 	}
 
 	// 1. Get cluster info
-	//
+
 	res, err := es.Info()
 	if err != nil {
 		log.Fatalf("Error getting response: %s", err)
@@ -51,7 +51,7 @@ func main() {
 	log.Println(strings.Repeat("~", 37))
 
 	// 2. Index documents concurrently
-	//
+
 	for i, title := range []string{"Test One", "Test Two"} {
 		wg.Add(1)
 
@@ -100,7 +100,7 @@ func main() {
 	log.Println(strings.Repeat("-", 37))
 
 	// 3. Search for the indexed documents
-	//
+
 	// Build the request body.
 	var buf bytes.Buffer
 	query := map[string]interface{}{

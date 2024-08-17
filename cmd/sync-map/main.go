@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"go-playground/internal/safemap"
+	"go-playground/pkg/safemap"
 )
 
 func main() {
