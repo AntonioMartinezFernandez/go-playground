@@ -16,7 +16,7 @@ const (
 
 func main() {
 	c, err := kafka.NewConsumer(&kafka.ConfigMap{
-		"bootstrap.servers": fmt.Sprintf("%s, %s", KafkaServer1, KafkaServer2),
+		"bootstrap.servers": KafkaServer2,
 		"group.id":          KafkaGroupId,
 		"auto.offset.reset": "earliest",
 	})
